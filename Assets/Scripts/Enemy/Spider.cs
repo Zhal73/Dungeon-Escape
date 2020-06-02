@@ -11,7 +11,7 @@ public class Spider : Enemy
     private void Start()
     {
         _anim = GetComponentInChildren<Animator>();
-        _spiderSprite = GetComponentInChildren<SpriteRenderer>();    
+        _spiderSprite = GetComponentInChildren<SpriteRenderer>():
     }
 
     public override void Update()
