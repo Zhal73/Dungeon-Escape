@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Enemy : MonoBehaviour
 {
     [SerializeField] protected int health;   //protected = only object that ihnerit can modify it.
-    [SerializeField] protected int speed;    //protected = only object that ihnerit can modify it.
+    [SerializeField] protected float speed;    //protected = only object that ihnerit can modify it.
     [SerializeField] protected int gems;     //protected = only object that ihnerit can modify it.
 
     [SerializeField] protected Transform pointA, pointB; //waypoints
